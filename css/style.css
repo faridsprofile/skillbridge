@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Be Vietnam Pro", sans-serif;
+    background: #f7f7f7;
+}
+.container{
+    width: 1597px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+header{}
+header .top-bar{
+    display: flex;
+    justify-content: center;
+    width: 1860px;
+    height: 55px;
+    background: #FF9500;
+    margin: 0 auto;
+}
+
+header .top-bar p{
+    align-content: center;
+    color: #fff;
+}
+header .top-bar i{
+    align-content: center;
+    color: #fff;
+    margin-left: 23px;
+}
+header nav{
+    padding: 20px 0 24px 0;
+}
+header .main-nav{
+    display: flex;
+    align-items: center;
+} 
+header .main-nav .logo{
+
+} 
+header .main-nav .logo img{} 
+header .main-nav .main-menu{
+    margin-left: 50px;
+}
+header .main-nav .main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 26px; */
+}
+header .main-nav .main-menu ul li{
+    list-style: none;
+}
+header .main-nav .main-menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #262626;
+    padding: 14px 24px;
+} 
+header .main-nav .main-menu ul li a:hover{
+    padding: 14px 24px;
+    background:#F1F1F3;
+    border-radius: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+header .main-nav .right-menu{
+    margin-left: auto;
+}
+header .main-nav .right-menu button{
+    padding: 14px 24px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid transparent;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+header .main-nav .right-menu button:hover{
+    background: #FF9500;
+    border: 1px solid #FF9500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+/* hero section css start */
+#hero-section{
+    text-align: center;
+    padding: 100px;
+}
+#hero-section .sub-container{}
+#hero-section .sub-container .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-section .sub-container .icon-container i{
+    font-size: 25px;
+    height: 62px;
+    width: 62px;
+    line-height: 62px;
+    background: #FFF4E5;
+}
+#hero-section .sub-container .icon-container h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: #262626;
+}
+#hero-section .sub-container .icon-container h1 span{
+    color: #FF9500;
+    margin-left: 10px;
+}
+#hero-section .sub-container .text-container{}
+#hero-section .sub-container .text-container h4{
+    font-size: 38px;
+    font-weight: 500;
+    color: #262626;
+    margin-top: 20px;
+}
+#hero-section .sub-container .text-container p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+    margin-top: 10px;
+}
+#hero-section .sub-container .button-container{
+    margin-top: 60px;
+}
+#hero-section .sub-container .button-container button{
+    width: 195px;
+    height: 63px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FF9500;
+    color: #fff;
+    border: 1px solid #FF9500;
+    font-family: "Be Vietnam Pro", sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#hero-section .sub-container .button-container button:hover{
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: #262626;
+    font-weight: 600;
+    transition: 0.4s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+/* hero section css end */
+
+/* logo-card section css start */
+#logo-card{}
+#logo-card .logo-inner{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+#logo-card .logo-inner .single-logo{
+    height: 94px;
+    width: 219px;
+    border-right: 1px solid #F1F1F3;
+}
+#logo-card .logo-inner .single-logo:nth-child(7){
+    border-right: none;
+}
+#logo-card .logo-inner .single-logo img{
+    padding: 30px 75px;
+}
+/* logo-card section css end */
+/* play video section css start */
+#play-video{
+    padding-top: 100px;
+}
+
+#play-video .video-inner{
+    background-image: url("../images/container.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+    /* padding: 100px 0; */
+    /* margin: 100px 0 0 0; */
+    position: relative;
+}
+#play-video .video-inner a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: play 2s infinite;
+    background: #d3d3d347;
+    /*height: 72px;
+    width: 72px;
+    line-height: 72px;
+    */text-align: center;
+    border-radius: 50%;
+    -webkit-animation: play 2s infinite;
+}
+#play-video .video-inner a i{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 44px;
+    color: #fff;
+}
+
+@keyframes play {
+    0%{
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
+    }
+    25%{
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+    50%{
+        height: 150px;
+        width: 150px;
+        line-height: 150px;
+    }
+    75%{
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+    100%{
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
+    }
+}
+    
+/* play video section css end */
+/* benifits section css start */
+#benifits{}
+#benifits .benifits-header{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#benifits .benifits-header .header-left{
+    width: 75%;
+}
+#benifits .benifits-header .header-left h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+#benifits .benifits-header .header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+#benifits .benifits-header .header-right{
+}
+#benifits .benifits-header .header-right button{
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 120px;
+    height: 63px;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#benifits .benifits-header .header-right button:hover{
+    background: #FF9500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#benifits .benifits-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-top: 80px;
+}
+#benifits .benifits-card .card-single{
+    padding: 50px;
+    background: #fff;
+    border-radius: 10px;
+}
+#benifits .benifits-card .card-single span{
+    font-size: 80px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    color: #262626;
+}
+#benifits .benifits-card .card-single h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 50px;
+}
+#benifits .benifits-card .card-single p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C4D;
+    padding-top: 14px;
+}
+#benifits .benifits-card .card-single img{
+    float: right;
+    padding: 20px;
+    background: #FCFCFD;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+/* benifits section css end */
+
+/* courses section css start */
+#courses{}
+#courses .course-header{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#courses .course-header .header-left{
+    width: 75%;
+}
+#courses .course-header .header-left h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+#courses .course-header .header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+#courses .course-header .header-right{
+}
+#courses .course-header .header-right button{
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 120px;
+    height: 63px;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#courses .course-header .header-right button:hover{
+    background: #FF9500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#courses .course-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin-top: 80px;
+}
+#courses .course-card .single-card{
+    padding: 50px;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+#courses .course-card .single-card .course-img{}
+#courses .course-card .single-card .course-img img{
+    width: 100%;
+}
+#courses .course-card .single-card .course-info{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+#courses .course-card .single-card .course-info p{
+    font-size: 18px;
+    color: #4C4C4D;
+    padding: 10px 15px;
+    /* background: #fff; */
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#courses .course-card .single-card .course-info h5{
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+#courses .course-card .single-card .course-details{}
+#courses .course-card .single-card .course-details h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #262626;
+}
+#courses .course-card .single-card .course-details p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+#courses .course-card .single-card .course-details button{
+    height: 65px;
+    width: 100%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #262626;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+#courses .course-card .single-card .course-details button:hover{
+    background: #FF9500;
+    color: #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+/* courses section css end */
+
+/* testimonial section css start */
+#testimonial{}
+#testimonial .testimonial-header{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#testimonial .testimonial-header .header-left{
+    width: 75%;
+}
+#testimonial .testimonial-header .header-left h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+#testimonial .testimonial-header .header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+#testimonial .testimonial-header .header-right{
+}
+#testimonial .testimonial-header .header-right button{
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 120px;
+    height: 63px;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#testimonial .testimonial-header .header-right button:hover{
+    background: #FF9500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#testimonial .testimonial-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin-top: 80px;
+}
+#testimonial .testimonial-cards .single-card{
+    background: #fff;
+}
+#testimonial .testimonial-cards .single-card .card-top{}
+#testimonial .testimonial-cards .single-card .card-top p{
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C4D;
+}
+#testimonial .testimonial-cards .single-card .card-bottom{
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    background: #FCFCFD;
+}
+#testimonial .testimonial-cards .single-card .card-bottom img{}
+#testimonial .testimonial-cards .single-card .card-bottom h6{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+#testimonial .testimonial-cards .single-card .card-bottom button{
+    margin-left: auto;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #262626;
+    width: 182px;
+    height: 63px;
+    background: #F7F7F8;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+#testimonial .testimonial-cards .single-card .card-bottom button:hover{    
+    background-color: #FF9500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+/* testimonial section css end */
+
+/* pricing section css start */
+#pricing{}
+#pricing .pricing-header{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#pricing .pricing-header .header-left{
+    width: 75%;
+}
+#pricing .pricing-header .header-left h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+#pricing .pricing-header .header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+#pricing .pricing-header .header-right{
+    background; #fff
+;
+    background: #fff;
+    border-radius: 10px;
+}
+#pricing .pricing-header .header-right button{
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 120px;
+    height: 63px;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#pricing .pricing-header .header-right button:hover{
+    background: #FF9500;
+    color: #fff;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#pricing .pricing-table{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background: #fff;
+    margin-top: 80px;
+}
+#pricing .pricing-table .single-price{
+background: #F1F1F3;
+padding: 30px;
+margin: 80px;
+width: 50%;
+}
+
+#pricing .pricing-table .single-price h4{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #262626;
+    background: #FFF9F0;
+    border: 1px solid #FFEACC;
+    padding: 12px;
+    border-radius: 5px;
+}
+#pricing .pricing-table .single-price .price{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#pricing .pricing-table .single-price .price span{
+    font-size: 80px;
+    font-weight: 600;
+    color: #262626;
+}
+#pricing .pricing-table .single-price .price p{
+    display: block;
+    color: #4C4C4D;
+}
+#pricing .pricing-table .single-price .available-features{
+    list-style: none;
+    background: #fff;
+    padding: 40px;
+}
+#pricing .pricing-table .single-price .available-features li{
+    font-size: 18px;
+    font-weight: 400;
+    height: 32px;
+    margin-top: 20px;
+    /* justify-content: center; */
+}
+#pricing .pricing-table .single-price .available-features li h5{
+    text-align: center;
+    font-size: 20px;
+    color: #262626;
+
+}
+#pricing .pricing-table .single-price .available-features li i{
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #FFF4E5;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    color: #262626;
+}
+#pricing .pricing-table .single-price .available-features li h6{
+    display: inline-block;
+}
+#pricing .pricing-table .single-price .available-features li button{
+    width: 100%;
+    height: 67px;
+    background: #FF9500;
+    border: 1px solid transparent;
+}
+
+/* pricing section css end */
+
+/* footer section css start */
+footer{
+    background: #fff;
+}
+footer .footer-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+footer .footer-inner .col-1{
+    width: 50%;
+}
+
+footer .footer-inner .col-1 .col-1-inner{
+
+}
+footer .footer-inner .col-1 .col-1-inner img{}
+footer .footer-inner .col-1 .col-1-inner ul{
+    margin-top: 40px;
+}   
+footer .footer-inner .col-1 .col-1-inner ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .footer-inner .col-1 .col-1-inner ul li i{
+    margin-right: 6px;
+    font-size: 18px;
+    color: #262626;
+}
+footer .footer-inner .col-2{
+    width: 16.67%;
+}
+footer .footer-inner .col-2 .col-2-inner{}
+footer .footer-inner .col-2 .col-2-inner h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    margin: 0 0 14px 0;
+}
+footer .footer-inner .col-2 .col-2-inner ul{}
+footer .footer-inner .col-2 .col-2-inner ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+footer .footer-inner .col-2 .col-2-inner ul li a{
+    text-decoration: none;
+    color: #59595A;
+}
+footer .footer-inner .col-3{
+    width: 16.67%;
+}
+footer .footer-inner .col-3 .col-3-inner{}
+footer .footer-inner .col-3 .col-3-inner h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    margin: 0 0 14px 0;
+}
+footer .footer-inner .col-3 .col-3-inner ul{}
+footer .footer-inner .col-3 .col-3-inner ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+footer .footer-inner .col-3 .col-3-inner ul li a{
+    text-decoration: none;
+    color: #59595A;
+}
+footer .footer-inner .col-4{
+    width: 16.67%;
+}
+footer .footer-inner .col-4 .col-4-inner{}
+footer .footer-inner .col-4 .col-4-inner h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+}
+footer .footer-inner .col-4 .col-4-inner ul{}
+footer .footer-inner .col-4 .col-4-inner ul li{
+    list-style: none;
+    display: inline-block;
+}
+footer .footer-inner .col-4 .col-4-inner ul li a{}
+footer .footer-inner .col-4 .col-4-inner ul li a i{
+    font-size: 24px;
+    height: 52px;
+    width: 52px;
+    line-height: 52px;
+    background: #F1F1F3;
+    text-align: center;
+    color: #333333;
+    border-radius: 5px;
+    margin: 14px 14px 0 0;
+}
+/* footer section css end */
+
+/* online-course section css start */
+#online-course{
+    padding: 100px 0;
+}
+#online-course .course-inner{
+    display: flex;
+    justify-content: space-between;
+}
+#online-course .course-inner .course-left{
+    width: 50%;
+}
+#online-course .course-inner .course-left h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+#online-course .course-inner .course-right{
+    width: 50%;
+}
+#online-course .course-inner .course-right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+/* online-course section css end */
